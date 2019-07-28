@@ -22,11 +22,11 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
           appBar:
-          AppBar(leading: Icon(Icons.arrow_back), title: Text('MI PRIMERA PANTALLA')),
+          AppBar(leading: Icon(Icons.arrow_back), title: Text('OJONAAAAAAAA')),
           body: Container(
             decoration: BoxDecoration(
                 image: DecorationImage(
-                    image: AssetImage('assets/images/juego.jpg'),
+                    image: AssetImage('assets/images/princesa.jpg'),
                     fit: BoxFit.fill)),
             child: Center(
               child: Container(
@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
                 color: Colors.black38,
                 child: Center(
                     child: Text(
-                      'DIOS DE LA GUERRA',
+                      'TE AMO PRINCESA',
                       style: TextStyle(color: Colors.white, fontSize: 30.0),
                     )),
               ),
